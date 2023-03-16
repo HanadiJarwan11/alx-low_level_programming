@@ -1,11 +1,11 @@
-#!/bin/bash
 #include <stdio.h>
 /*
- *
- * main - Entry point
- *Return: returns 0
+ * main - prints programming is like  puzzle, followed by a new line
+ * Return: returns 0
  */
 
 int main(void)
+{
 puts("Programming is like building a multilingual puzzle\n");
-return(0);
+return (0);
+}
