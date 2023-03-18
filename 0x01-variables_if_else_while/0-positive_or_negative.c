@@ -10,8 +10,7 @@ int main(void)
 
 	if (n > 0)
 	{
-		printf("is positive%d\n", n);
-		scanf("%d", n);
+		printf("is positive%d\n");
 	}
 	else if (n == 0)
 	{
