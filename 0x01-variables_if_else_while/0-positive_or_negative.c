@@ -8,6 +8,8 @@ int main(void)
 {
 	int n;
 
+	printf("enter your number\n");
+	scanf("%d", &n);
 	if (n > 0)
 	{
 		printf("is positive\n");
@@ -18,7 +20,6 @@ int main(void)
 	}
 
 	else
-		(n < 0);
 	{
 		printf("is negative\n");
 	}
