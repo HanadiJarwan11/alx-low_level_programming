@@ -7,10 +7,10 @@
 int main(void)
 {
 	char letters = 'a';
-
+i
 	while (letters <= 'z')
 	{
-		printf("%c", letters);
+		printf("%c\n", letters);
 		letters++;
 	}
 	return (0);
