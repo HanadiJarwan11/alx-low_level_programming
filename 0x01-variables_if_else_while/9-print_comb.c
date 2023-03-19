@@ -7,7 +7,7 @@ int main(void)
 {
 	int n;
 
-	while (n = '0'; n <= '9'; n++)
+	while (n <= '9')
 	{
 		putchar (n + '0');
 		if (n < 9)
@@ -15,6 +15,7 @@ int main(void)
 			putchar (',');
 			putchar (' ');
 		}
+		n++;
 	}
 	putchar ('\n');
 	return (0);
