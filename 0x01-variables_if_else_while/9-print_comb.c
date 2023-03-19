@@ -3,7 +3,7 @@
  * main - possible combo of single digit numbers
  * Return: 0 (success)
  */
- int main(void)
+int main(void)
 {
 	int n;
 
@@ -11,6 +11,5 @@
 		putchar (n + '0');
 	putchar (',');
 	putchar ('\n');
-	
 	return (0);
 }
