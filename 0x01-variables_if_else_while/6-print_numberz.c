@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - base ten
+ * main - print base ten
  * Return: 0 (success)
  */
 int main(void)
@@ -9,6 +9,6 @@ int main(void)
 
 	for (n = '0'; n <= 10; n++)
 		putchar(n);
-			putchar ('n');
-
-			return (0);
+		putchar ('n');
+	return (0);
+}
