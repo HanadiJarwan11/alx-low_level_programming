@@ -5,18 +5,19 @@
  */
 int main(void)
 {
-	int n = 0;
+	int x = 0;
 
-	while (n < '9')
+	while (x < 10)
 	{
-		putchar (n + '0');
-		if (n < 9)
+		putchar (x + '0');
+		if (x < 9)
 		{
-			putchar (',');
-			putchar (' ');
+			putchar(',');
+			putchar(' ');
 		}
-		n++;
+		x++;
 	}
 	putchar ('\n');
+
 	return (0);
 }
