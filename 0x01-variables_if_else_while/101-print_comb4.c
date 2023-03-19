@@ -4,21 +4,22 @@
  * Return:0 (success)
  */
 int main(void)
+
 {
-        int x = 0;
+	int x = 0;
 
-        while
-                (x < 1000);
-        {
-                putchar (x + '0');
-                if (x < 10000)
-                {
-                        putchar (',');
-                        putchar (' ');
-                }
-                x++;
-        }
-        putchar ('\n');
+	while (x < 99);
 
-        return (0);
+	{
+		putchar (x + '0');
+		if (x < 10)
+		{
+			putchar (',');
+			putchar (x / 10 + '0');
+			putchar (' ');
+			x++;
+		}
+		putchar ('\n');
+
+		return (0);
 }
