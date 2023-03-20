@@ -5,20 +5,21 @@
  */
 int main(void)
 {
-	int x = 0;
+	int a;
+	int b;
 
-	while
-		(x < 99);
+	for (a = 0; a <= 9; a++)
 	{
-		putchar (x + '0');
-		if (x < 99)
+		for (b = 0; a <= 9; b++)
 		{
-			putchar (',');
-			putchar (' ');
+			if (a != b)
+			{
+				putchar (a + '0');
+				putchar (b + '0');
+				putchar (' ');
+			}
 		}
-		x++;
 	}
 	putchar ('\n');
-
 	return (0);
 }
