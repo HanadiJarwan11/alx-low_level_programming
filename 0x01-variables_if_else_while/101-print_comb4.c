@@ -5,19 +5,25 @@
  */
 int main(void)
 {
-    int x = 0;
+	int a, b, c;
+	
+	for (a = 0; a <= 9; a++)
+	{
+		for (b = 0; b <= 9; b++)
+		{
+			for (c = 0; c <= 9; c++)
+			{
+				if (a != b && a!=c && b!= c)
+                        {
+                                putchar (a + '0');
+                                putchar (b + '0');
+                                putchar (c + '0');
+                                putchar (' ');
+                        }
+                }
+        }
+        }
+        putchar ('\n');
 
-    while (x < 10)
-    {
-        putchar(x + '0');
-        if (x < 9)
-        {
-            putchar (',');
-                        putchar (x / 10 + '0');
-                        putchar (' ');
-                        x++;}
-    }
-    putchar('\n');
-
-    return (0);
+        return (0);
 }
