@@ -6,14 +6,19 @@
  *
  * Return: Always 0.
  */
-
-void reset_to_98(int *n);
+void reset_to_98(int *n)
+	{
+		*n = 402;
+	}
+int main(void)
 {
-	int n;
+	int a;
+	int *s;
 
-	n = 98;
-	printf("n = %d\n", n);
-	printf("n = %d\n", n);
-
-	return (0);
+	a = 98;
+	s = &a;
+	printf("n=%d\n", a);
+	modif_my_param(s);
+	printf("n=%d\n", a);
+		return (0);
 }
