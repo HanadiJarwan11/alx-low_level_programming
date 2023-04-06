@@ -10,7 +10,7 @@
  */
 void _puts_recursion(char *s)
 {
-	printf();
+	_puts_recursion("printf()");
 
 	return (0);
 }
